@@ -122,7 +122,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="photo.jpg" style="width: 150px; height: 150px; border-radius: 50%;" class="round-center"></p>
+<style>
+.rounded-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+}
+</style>
+<p><img src="photo.jpg" style="width: 150px; height: 150px; border-radius: 50%;" class="rounded-img"></p>
 <section id="welcome-to-my-website" class="level1">
 <h1>Welcome to my website!</h1>
 <p>Hello!, My name is Dongchun Chen. I hold a Bachelor’s degree in Biomedical Sciences from University College London (UCL) and am currently pursuing the MDS program at the University of British Columbia. My academic focus is on integrating advanced data science techniques to enhance healthcare outcomes, particularly in mental health and substance use disorders.</p>
@@ -225,7 +234,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/DongchunChen\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
