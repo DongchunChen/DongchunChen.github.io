@@ -1,0 +1,10 @@
+<img src="photo.jpg" style="width: 150px; height: 150px; border-radius: 50%;" class="round-center" />
+
+# Welcome to my website!
+
+Hello!, My name is Dongchun Chen. I hold a Bachelor's degree in Biomedical Sciences from University College London (UCL) and am currently pursuing the MDS program at the University of British Columbia. My academic focus is on integrating advanced data science techniques to enhance healthcare outcomes, particularly in mental health and substance use disorders.
+
+Outside of academia, I am passionate about sports, especially boxing, which I’ve been practicing for quite some time. I also enjoy K-pop and cooking in my free time.
+
+
+**Little Fun Fact** 🎉: I have a twin sister!
